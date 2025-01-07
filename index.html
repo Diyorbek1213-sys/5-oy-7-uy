@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <title>5 oy 7 uy</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+</head>
+
+<body class="bg-[#0D0714] font-Inter">
+    <main>
+        <span class="text-[white]">Important! <br> If you can't delete a card, please refresh the page because i didn't solve this problem<br><br> Powered by Diyorbek ahah</span>
+        <div class="container max-w-[432px] m-0 mx-auto">
+            <div class="flex justify-center items-center flex-col pt-[74px]">
+                <div>
+                    <form class="flex items-center gap-[11px]" id="form">
+                        <input type="text"
+                            class="border border-[#3E1671] rounded-[10px] w-[381px] h-[40px] bg-transparent py-[11px] px-[15px] text-[white] focus:outline-none"
+                            placeholder="Add a new task" id="username">
+                        <button
+                            class="bg-[#9E78CF] w-[40px] h-[40px] rounded-[10px] flex items-center justify-center"><img
+                                src="images/Plus.svg" alt="logo" id="button_1"></button>
+                    </form>
+                    <label for="request" id="label" style="display: none; color: red;">sharh 3 tadan kam
+                        bo'lmasin</label>
+                </div>
+            </div>
+
+            <div class="mt-[60px]" id="wrapper">
+                <h3 style="display: none; color: white;" id="h3_1">Tasks to do</h3>
+            </div>
+            <div id="done">
+                <h3 class="text-[white]" style="display: none;">Done - 1</h3>
+            </div>
+        </div>
+    </main>
+
+    <script src="./Java/main.js"></script>
+</body>
+
+</html>
