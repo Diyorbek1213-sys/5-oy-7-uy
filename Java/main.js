@@ -56,6 +56,8 @@ form && form.addEventListener('submit', function (event) {
     const card = createCard(user)
     wrapper.innerHTML += card
 
+    window.location.reload()
+
     let data = []
     if (localStorage.getItem('users')) {
         data = JSON.parse(localStorage.getItem('users'))
